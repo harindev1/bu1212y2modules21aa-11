@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+ <html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Harin Shop - 구매 완료</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                Roboto, "Helvetica Neue", Arial, sans-serif;
+
+            min-height: 100vh;
+            background: #ffffff;
+            color: #1a1a1a;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 20px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 500px;
+
+            background: #ffffff;
+            border: 1px solid #e5e5e5;
+            border-radius: 12px;
+
+            padding: 48px 40px;
+            text-align: center;
+
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+        }
+
+        .check {
+            width: 64px;
+            height: 64px;
+
+            margin: 0 auto 20px;
+
+            border-radius: 50%;
+            background: #f5f5f5;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 32px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666666;
+            line-height: 1.6;
+            margin-bottom: 32px;
+        }
+
+        .policy {
+            text-align: left;
+
+            background: #fafafa;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .policy-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .policy p {
+            font-size: 12px;
+            line-height: 1.8;
+            color: #666666;
+        }
+
+        .download-button {
+            display: block;
+            width: 100%;
+
+            padding: 16px;
+
+            background: #1a1a1a;
+            color: #ffffff;
+
+            border: none;
+            border-radius: 8px;
+
+            font-size: 16px;
+            font-weight: 600;
+
+            text-decoration: none;
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        .download-button:hover {
+            background: #333333;
+            transform: translateY(-1px);
+        }
+
+        .thanks {
+            margin-top: 24px;
+
+            font-size: 13px;
+            line-height: 1.7;
+            color: #888888;
+        }
+
+        @media (max-width: 600px) {
+            .card {
+                padding: 36px 24px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="check">
+            ✓
+        </div>
+
+        <h1>구매 완료</h1>
+
+        <p class="subtitle">
+            구매해주셔서 감사합니다!<br>
+            아래 버튼을 눌러 파일을 다운로드해주세요.
+        </p>
+
+        <div class="policy">
+
+            <div class="policy-title">
+                운영정책
+            </div>
+
+            <p>
+                • 구매한 상품의 무단 배포 및 공유를 금지합니다.<br>
+                • 구매한 상품의 재판매를 금지합니다.<br>
+                • 상품 파일 및 소스코드의 무단 복제·판매를 금지합니다.<br>
+                • 운영정책 위반이 확인될 경우 이용이 제한될 수 있습니다.
+            </p>
+
+        </div>
+        <a
+            class="download-button"
+            href="https://cdn.discordapp.com/attachments/1542839928046616650/1547941113753636874/kakaoloco.zip?ex=6aa54000&is=6aa3ee80&hm=76fcd19c6b0d7364047b27570271a0ec067d75845b6a8f95a61b2de665f05e2e&"
+            download
+        >
+            파일 다운로드
+        </a>
+
+        <div class="thanks">
+            Harin Shop을 이용해주셔서 감사합니다.<br>
+            좋은 상품과 서비스를 제공할 수 있도록 노력하겠습니다.
+        </div>
+
+    </div> 
+
+</body>
+</html> 
